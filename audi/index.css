@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.hdcarwallpapers.com/walls/2017_audi_rs_3_sportback_4k-HD.jpg);
+    background-size: 100%;
+    background-position: x=100;
+    font-family: sans-serif;
+}
+
+
+
+.menu-bar{
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul img{
+    width: 100%;
+    height: 100%;
+    margin-top: -15px;
+    margin-right: 50px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.column{
+    size: 5%;
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
